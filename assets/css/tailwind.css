@@ -1,0 +1,391 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import './override-external-components.css';
+
+@layer components {
+  .main-title {
+    @apply text-[27px] font-extrabold leading-[33px] md:text-[53px] md:leading-[62px];
+  }
+  .dark-mode {
+    @apply dark:bg-dark dark:text-white;
+  }
+  .dark-mode-secondary {
+    @apply dark:bg-dark dark:text-grey-light2;
+  }
+  .dark-mode-duration {
+    @apply duration-200 ease-linear;
+  }
+  .title {
+    @apply text-2xl font-extrabold leading-[37px] md:text-[32px];
+  }
+  .spacing-h-88 {
+    @apply py-5 md:py-11;
+  }
+  .spacing-h-115 {
+    @apply py-8 md:py-12;
+  }
+  .spacing-h-135 {
+    @apply py-10 md:py-16;
+  }
+  .fewAndFarColor {
+    @apply bg-gradient-to-tl from-green via-blue to-purple bg-clip-text text-transparent;
+  }
+  .text-fnf-gradient {
+    background: radial-gradient(
+      at left bottom,
+      rgb(178, 207, 103),
+      rgb(117, 206, 215),
+      rgb(182, 183, 248)
+    );
+    background-size: 200% auto;
+    background-clip: text;
+    color: transparent;
+  }
+  .animate-up-hover {
+    @apply translate-y-0 transition duration-300 ease-in-out hover:-translate-y-1;
+  }
+  .shadow-box {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.243355);
+    border-radius: 10px;
+  }
+  .bg-linear-gradient {
+    background-color: #b6b7f8;
+    background-image: linear-gradient(90deg, #75ced7, #b2cf67, #b6b7f8);
+    background-clip: text;
+    color: transparent;
+  }
+  /* Start BaseButton  */
+  .btn {
+    @apply cursor-pointer whitespace-nowrap rounded-lg border-transparent transition duration-200 ease-linear;
+  }
+  .btn-rounded {
+    @apply relative flex cursor-pointer items-center justify-center rounded-full border-transparent transition duration-200 ease-linear dark:border-grey-300;
+  }
+
+  /* Start Btn Size */
+  .btn-sm {
+    @apply px-5 py-1.5 text-sm md:text-base;
+  }
+  .btn-base {
+    @apply px-5 py-2 text-sm md:text-base;
+  }
+  .btn-lg {
+    @apply px-6 py-3 text-sm md:px-7 md:text-base;
+  }
+  .btn-xl {
+    @apply px-5 py-3.5 text-sm md:px-7 md:text-base;
+  }
+  .btn-icon-sm {
+    @apply h-10 w-10;
+  }
+  .btn-icon-base {
+    @apply h-11 w-11;
+  }
+  .btn-icon-lg {
+    @apply h-12 w-12;
+  }
+  /* End Btn Size */
+
+  .btn-between {
+    @apply flex items-center justify-between;
+  }
+  .btn-center {
+    @apply flex items-center justify-center;
+  }
+
+  /* Start Btn Color */
+  .btn-primary {
+    @apply bg-purple text-white  hover:bg-blue  active:bg-blue;
+  }
+  .btn-secondary {
+    @apply bg-grey-300 text-white hover:border-purple-dark hover:bg-purple-dark active:border-purple-dark active:bg-purple-dark;
+  }
+  .btn-brand-dark {
+    background: linear-gradient(to left, #1f1f1f, #1f1f1f, #1f1f1f),
+      linear-gradient(
+        to bottom left,
+        theme('colors.purple.DEFAULT'),
+        theme('colors.blue.DEFAULT'),
+        theme('colors.green.DEFAULT')
+      );
+  }
+  .btn-brand {
+    @apply border-transparent text-purple dark:bg-dark;
+    background-clip: padding-box, border-box !important;
+    background-origin: padding-box, border-box !important;
+    background: linear-gradient(to left, #fff, #fff, #fff),
+      linear-gradient(
+        to bottom left,
+        theme('colors.purple.DEFAULT'),
+        theme('colors.blue.DEFAULT'),
+        theme('colors.green.DEFAULT')
+      );
+  }
+  .btn-brand:hover {
+    @apply border-transparent text-purple hover:text-blue;
+    background-clip: padding-box, border-box !important;
+    background-origin: padding-box, border-box !important;
+    background: linear-gradient(to right, #fff, #fff, #fff),
+      linear-gradient(
+        to bottom right,
+        theme('colors.blue.DEFAULT'),
+        theme('colors.blue.DEFAULT'),
+        theme('colors.blue.DEFAULT')
+      );
+  }
+  .btn-white {
+    @apply bg-white dark:border-grey-300 dark:bg-dark;
+  }
+  /* End Btn Color */
+
+  /* Start Btn Border Color */
+  .btn-border-purple {
+    @apply hover:border-purple active:border-purple;
+  }
+  .btn-border-primary-dark {
+    @apply border-purple-dark hover:border-blue-dark active:border-blue-dark;
+  }
+  .btn-border-primary {
+    @apply border-purple hover:border-blue active:border-blue;
+  }
+  .btn-border-secondary {
+    @apply border-grey-300 hover:border-grey-300 active:border-grey-300;
+  }
+  .btn-border-b-primary {
+    @apply border-b-4 border-b-purple-secondary hover:border-b-blue-dark active:border-b-blue-dark;
+  }
+  .btn-border-b-secondary {
+    @apply border-b-4 border-b-black hover:border-b-purple-secondary active:border-b-purple-secondary;
+  }
+  /* End Btn Border Color */
+
+  .btn-fnf-1 {
+    @apply cursor-pointer whitespace-nowrap rounded-lg border-2 border-transparent font-bold;
+    background-clip: padding-box, border-box !important;
+    background-origin: padding-box, border-box !important;
+    background: linear-gradient(to left, #fff, #fff, #fff),
+      linear-gradient(
+        to bottom left,
+        theme('colors.purple.DEFAULT'),
+        theme('colors.blue.DEFAULT'),
+        theme('colors.green.DEFAULT')
+      );
+  }
+  .btn-fnf-2 {
+    @apply cursor-pointer whitespace-nowrap rounded-lg border-x-2 border-t-2 border-b-4 border-transparent font-bold;
+    background-clip: padding-box, border-box !important;
+    background-origin: padding-box, border-box !important;
+    background: linear-gradient(to left, #fff, #fff, #fff),
+      linear-gradient(
+        to bottom left,
+        theme('colors.purple.DEFAULT'),
+        theme('colors.blue.DEFAULT'),
+        theme('colors.green.DEFAULT')
+      );
+  }
+
+  .btn-fnf-3 {
+    @apply cursor-pointer whitespace-nowrap rounded-lg border-x-2 border-t-2 border-b-4 border-transparent font-bold;
+    background-clip: padding-box, border-box !important;
+    background-origin: padding-box, border-box !important;
+    background: linear-gradient(to right, #fff, #fff, #fff),
+      linear-gradient(
+        to bottom right,
+        theme('colors.purple.DEFAULT'),
+        theme('colors.purple.DEFAULT'),
+        theme('colors.purple.DEFAULT')
+      );
+  }
+
+  .btn-fnf-2:hover,
+  .btn-fnf-1:hover,
+  .btn-fnf-3:hover {
+    @apply border-transparent text-purple hover:text-blue;
+    background-clip: padding-box, border-box !important;
+    background-origin: padding-box, border-box !important;
+    background: linear-gradient(to right, #fff, #fff, #fff),
+      linear-gradient(
+        to bottom right,
+        theme('colors.blue.DEFAULT'),
+        theme('colors.blue.DEFAULT'),
+        theme('colors.blue.DEFAULT')
+      );
+  }
+}
+
+@layer utilities {
+  .border-few-and-far-color {
+    @apply border-transparent;
+    background-clip: padding-box, border-box !important;
+    background-origin: padding-box, border-box !important;
+    background: linear-gradient(to right, #fff, #fff, #fff),
+      linear-gradient(
+        to bottom right,
+        theme('colors.purple.DEFAULT'),
+        theme('colors.blue.DEFAULT'),
+        theme('colors.green.DEFAULT')
+      );
+  }
+  .border-few-and-far-color-dark {
+    @apply border-transparent;
+    background-clip: padding-box, border-box !important;
+    background-origin: padding-box, border-box !important;
+    background: linear-gradient(to right, #1f1f1f, #1f1f1f, #1f1f1f),
+      linear-gradient(
+        to bottom right,
+        theme('colors.purple.DEFAULT'),
+        theme('colors.blue.DEFAULT'),
+        theme('colors.green.DEFAULT')
+      );
+  }
+  .text-fnf-gradient-hover {
+    background: radial-gradient(at center center, #eeefff, #eeefff, #eeefff);
+    background-color: theme('colors.purple.light');
+    background-size: auto;
+    background-clip: padding-box;
+    color: theme('colors.purple.DEFAULT');
+  }
+  .text-fnf-gradient-dark {
+    background: radial-gradient(
+      at center center,
+      theme('colors.purple.opacity'),
+      theme('colors.purple.opacity'),
+      theme('colors.purple.opacity')
+    );
+    background-color: theme('colors.purple.opacity');
+    background-size: auto;
+    background-clip: padding-box;
+    color: theme('colors.purple.DEFAULT');
+  }
+  .animate-vibrate {
+    animation: animate-vibrate 8s linear infinite both;
+  }
+  .animate-vibrate-slowly {
+    animation: animate-vibrate 15s linear infinite both;
+  }
+  .animate-text-color {
+    animation: animate-text-color 6s ease-in-out infinite;
+  }
+  .animate-bg-color {
+    animation: animate-bg-color 10s ease-in-out infinite;
+  }
+  .animate-x {
+    animation: animate-x 120s linear infinite;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+@keyframes animate-bg-color {
+  from {
+    -webkit-filter: hue-rotate(0deg);
+  }
+  to {
+    -webkit-filter: hue-rotate(-360deg);
+  }
+}
+@keyframes animate-text-color {
+  0% {
+    background-position: 0px 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0px 50%;
+  }
+}
+@keyframes animate-x {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -10000px 0;
+  }
+}
+@keyframes animate-vibrate {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-5px, 5px);
+  }
+  40% {
+    transform: translate(-5px, -5px);
+  }
+  60% {
+    transform: translate(5px, 5px);
+  }
+  80% {
+    transform: translate(5px, -5px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+/* End Animates */
+
+/* Start Fade Transition */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-up-enter-active,
+.fade-up-leave-active {
+  transition: all 0.5s ease;
+}
+.fade-up-enter-from,
+.fade-up-leave-to {
+  opacity: 0;
+  transform: translateY(-30px);
+}
+.fade-up-leave-active {
+  position: absolute;
+}
+
+.slidedown-enter-active,
+.slidedown-leave-active {
+  transition: all 0.5s linear;
+}
+.slidedown-enter-to,
+.slidedown-leave-from {
+  overflow: hidden;
+  max-height: 1000px;
+}
+.slidedown-enter-from,
+.slidedown-leave-to {
+  overflow: hidden;
+  max-height: 0;
+}
+
+.list-enter-active,
+.list-leave-active {
+  transition: all 0.5s ease;
+}
+.list-enter-from,
+.list-leave-to {
+  opacity: 0;
+  transform: translateX(30px);
+}
+/* End Fade Transition */
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.no-tap-highlight {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}

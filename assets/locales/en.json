@@ -1,0 +1,422 @@
+{
+  "hello": "hello world",
+  "translation": {
+    "activity": {
+      "title": "Activity",
+      "type": {
+        "listing": "Listing",
+        "cancelListing": "Cancel Listing",
+        "sale": "Sale",
+        "bid": "Place Bid",
+        "withdrawOffer": "Withdraw Offer"
+      }
+    },
+    "charts": {
+      "period": {
+        "allTimeAVGPrice": "All Time Avg. Price",
+        "lastWeeksAVGPrice": "Last Week Avg. Price",
+        "lastTwoWeeksAVGPrice": "Last 2 Weeks Avg. Price",
+        "lastFourWeeksAVGPrice": "Last 4 Weeks Avg. Price",
+        "lastEightWeeksAVGPrice": "Last 8 Weeks Avg. Price",
+        "lastTwelveWeeksAVGPrice": "Last 12 Weeks Avg. Price"
+      }
+    },
+    "collection": {
+      "verifiedListing": "Verified Listing",
+      "unverifiedListing": "Unverified Listing",
+      "verifiedCollection": "Verified Collection",
+      "unverifiedCollection": "Unverified/Unsigned Collection",
+      "loading": "Loading more...",
+      "filters": {
+        "title": "Filters",
+        "status": "Status",
+        "clearAll": "Clear All",
+        "recentlyListed": "Recently Listed",
+        "priceLowToHigh": "Price: Low to High",
+        "priceHighToLow": "Price: High to Low"
+      },
+      "overview": {
+        "owners": "Owners",
+        "floorPrice": "Floor Price",
+        "totalVolume": "Total Volume"
+      },
+      "section": {
+        "items": {
+          "title": "Items"
+        }
+      }
+    },
+    "common": {
+      "amount": "Amount",
+      "staked": "Staked",
+      "owner": "Owner",
+      "near": "Near",
+      "noItems": "No Items",
+      "share": "Share",
+      "nearCoin": "Near Coin",
+      "farCoin": "Far Coin",
+      "action": {
+        "learnMore": "Learn More",
+        "loadMore": "Load More",
+        "share": "Share",
+        "shareOn": "Share on {{media}}",
+        "refresh": "Refresh",
+        "copyToClipboard": "Copy to Clipboard",
+        "btnCommunity": "Join Our Community"
+      },
+      "state": {
+        "copied": "Copied!"
+      }
+    },
+    "dialog": {
+      "connection": {
+        "title": "Connect your NEAR Wallet to get started",
+        "nearWallet": "NEAR Wallet",
+        "newToNear": "New to NEAR Protocol?",
+        "newToNearDesc": "Learn more about setting up a wallet"
+      }
+    },
+    "itemDetail": {
+      "mintAddress": "Mint Address",
+      "tokenAddress": "Token Address",
+      "creatorRoyalties": "Creator Royalties",
+      "walletAddress": "Wallet Address",
+      "transactionFee": "Transaction Fee",
+      "haveThisTrait": "% have this trait",
+      "rarity": "% rarity",
+      "action": {
+        "acceptHighestOffer": "Accept Highest Offer",
+        "buyNow": "Buy Now",
+        "makeOffer": "Make an Offer",
+        "listNow": "List Now",
+        "viewListing": "View Listing",
+        "listItem": "List Item",
+        "sendNFT": "Send NFT",
+        "termOfService": "<p class=\"mt-3 text-xs text-grey-300 dark:text-grey-light2\">By clicking <strong class=\"dark-mode font-bold\">{{firstActionBtn}}</strong> or <strong class=\"dark-mode font-bold\">{{secondActionBtn}}</strong>, you agree to our <a href=\"https://docs.fewfar.com/legal/terms-of-service.html\" target=\"_blank\"> <b class=\"text-purple font-bold\">Terms of Service.</b></a>  </p>",
+        "sendDescription": "<p class=\"text-sm md:text-base\">  You’re about to send  <strong class=\"font-bold\"> {{ name }} </strong> to: </p>",
+        "sendPlaceHolder": "Wallet Address (abc.near)",
+        "confirmSend": "Confirm Send",
+        "cancelOffer": "Cancel Offer"
+      },
+      "section": {
+        "about": "About",
+        "currentPrice": "Current Price",
+        "activities": "Activities",
+        "details": "Details",
+        "more": "More From This Collection",
+        "offers": "Offers",
+        "priceHistory": "Price History",
+        "properties": "Properties"
+      },
+      "tableHeader": {
+        "item": "Item",
+        "transactionID": "Transaction ID",
+        "type": "Type",
+        "time": "Time",
+        "amount": "Amount",
+        "buyer": "Buyer",
+        "seller": "Seller",
+        "address": "Address",
+        "price": "Price"
+      },
+      "toastMessage": {
+        "successTitle": "Congratulation !",
+        "offerMade": "Your offer was made",
+        "itemListed": "Your item is now listed",
+        "itemSent": "Your item was sent!"
+      },
+      "error": {
+        "wrongNearAccount": "Invalid wallet address. Please check the wallet address and try again."
+      }
+    },
+    "home": {
+      "banner": {
+        "title": "Earn FAR just by trading NFTs.",
+        "desc": "Introducing FAR rewards, coming soon!",
+        "cta": "Claim Airdrop"
+      },
+      "hero": {
+        "title": "One-Stop Destination for NFTs on <span class=\"text-purple\">NEAR</span>."
+      },
+      "explore": {
+        "title": "Explore Few and Far",
+        "action": {
+          "exploreNFTs": "Explore NFTs",
+          "exploreCollection": "Explore collection",
+          "swap": "Swap",
+          "farm": "Farm",
+          "earnRewards": "Earn Rewards"
+        }
+      },
+      "featured": {
+        "title": "Featured Collection"
+      },
+      "collections": {
+        "title": "Collections",
+        "popular": "Popular collections",
+        "latest": "Latest Collections",
+        "upcoming": "Upcoming Launches",
+        "highest": "Highest Sales"
+      },
+      "earn": {
+        "title": "Earn up to<br /><span class=\"text-fnf-gradient animate-text-color block\">{{apr}}% APR </span>With FAR.",
+        "text": "Participate by staking FAR tokens to earn a share of daily trading fees."
+      },
+      "preFooter": {
+        "community": "A Community-First NFT Platform Powered by Ⓝ.",
+        "reimagining": "Reimagining rewards, creativity, and community.",
+        "text": "Few and Far is the community-first NFT marketplace with rewards for participating."
+      }
+    },
+    "footer": {
+      "connect": "Connect With Us",
+      "copyright": "<b>Copyright {{date}} Few and Far</b> | One-Stop Destination for NFTs on NEAR",
+      "links": {
+        "explore": "Explore",
+        "collections": "Collections",
+        "claim": "Claim Tokens",
+        "blog": "Blog",
+        "help": "Help",
+        "privacyPolicy": "Privacy Policy",
+        "tos": "Terms of Service",
+        "about": "About Us",
+        "whitepaper": "Whitepaper",
+        "support": "Support",
+        "contact": "Contact",
+        "platform": "Platform",
+        "partnership": "Partnership"
+      }
+    },
+    "nft": {
+      "list": "List an NFT",
+      "exploreNFTs": "Explore NFTs"
+    },
+    "claim": {
+      "title": "Claim",
+      "member": {
+        "title": "Not eligible to claim FAR tokens? Don’t sweat it.",
+        "text": "FAR tokens can be swapped on a NEAR-supported DEX.",
+        "btnBuy": "Buy FAR on Ref Finance",
+        "btnLearn": "Learn More About the IFO"
+      },
+      "farm": {
+        "title": "Verify your Discord to see if you’re eligible for a one-time claim of FAR tokens.",
+        "form": {
+          "discord": "Verify Discord",
+          "wallet": "Enter Wallet Address (abc.near)",
+          "error": "Please enter a NEAR wallet address.",
+          "submit": "Claim Airdrop"
+        },
+        "congrats": "Congrats on being an Early FAR member! We’re sending an airdrop to your wallet.",
+        "verifSmart": "Verified Smart Contract Address",
+        "verifAddress": "210a2b014bf0301f88297c16d8ca20c5fcd0456cafd9899c4e970d1f9d3f096b",
+        "list": [
+          "52.5 million tokens (10.5% of the total supply of FAR) will be claimable in a series of airdrops.",
+          "To ensure a fair launch of FAR, there is an allocation of tokens available on Ref Finance as part of an IFO (Initial Farm Offering)."
+        ]
+      }
+    },
+    "rewards": {
+      "action": {
+        "collectFAR": "Collect FAR",
+        "stakeFar": "Stake FAR",
+        "collect": "Collect",
+        "stakeAll": "Stake All",
+        "harvest": "Harvest",
+        "stake": "Stake",
+        "unstake": "Unstake",
+        "buyFAR": "Buy FAR",
+        "viewContract": "View Contract",
+        "readTermsOfService": "Read our Terms of Service"
+      },
+      "title": "Rewards",
+      "availableBalance": "Available Balance",
+      "lockUpPeriod": "Lockup",
+      "banner": {
+        "title": "Stake FAR and earn up to"
+      },
+      "farmFar": "Farm <span class=\"text-purple\">{{unit}}</span> and earn up to",
+      "farmFarAPR": "<p class=\"text-fnf-gradient animate-text-color mr-4\">{{ apr }}% APR</p>",
+      "totalAmountStaked": "Total Amount Staked",
+      "farStaking": {
+        "title": "FAR Staking",
+        "subTitle": "Stake your FAR tokens and earn NEAR, plus earn extra FAR.",
+        "earnedNear": "Earned NEAR",
+        "earnedFar": "Earned FAR"
+      },
+      "farFarming": {
+        "title": "FAR Farming",
+        "subTitle": "Provide liquidity into the FAR ecosystem to yield farm FAR.",
+        "stakeLPToken": "Stake LP Token",
+        "buyNEARFARLPTokens": "Buy NEAR-FAR LP Tokens",
+        "buyFARTokens": "Buy FAR Tokens",
+        "farmedFar": "Farmed FAR"
+      },
+      "rewardsNoAvailable": "Sorry, Few and Far DeFi isn’t available in the U.S. It’s so we can remain regulatory compliant.",
+      "rewardsComingSoon": "Few and Far DeFi is launching soon. Stay tuned for upcoming news.",
+      "earnNEARGoFAR": {
+        "title": "Earn NEAR. Go FAR.",
+        "earNEAR": "Earn NEAR",
+        "goFAR": "Go FAR.",
+        "subTitle": "FAR gets you NEAR. Get it? It’s ironic.",
+        "description": "Get places with FAR as an incentive for participating in the Few and Far ecosystem. Down the line, FAR will be the governance token of our future DAO. Prolly nothing.",
+        "stakeDescription": "Stake FAR tokens and earn trading rewards. WAGMI, degens.",
+        "tradingTitle": "Earn Rewards",
+        "tradingDescription": "100% of Few and Far’s trading fees are distributed to FAR stakers. It’s a no-brainer (not like we invented this sh*t!).",
+        "lpTitle": "Become an LP",
+        "lpSubTitle": "(i.e. Yield Farm)",
+        "lpDescription": "Provide liquidity into the FAR ecosystem and yield farm NEAR until your heart’s content.",
+        "buyFARRefFinance": "Buy FAR on Ref Finance"
+      },
+      "tooltips": {
+        "farming": {
+          "apr": "<p>Farming rewards will be distributed to NEAR-FAR LP token stakers as a proportion of the amount of liquidity they provide to farming pools on Ref Finance.</p> <p class=\"mt-4\">Rates shown are estimates and fluctuate according to many different factors. They are subject to change if course-correction is needed to sustain the economy.</p>",
+          "stake": "LP tokens can be purchased from a NEAR-FAR farming pool on Ref Finance and staked on the Few and Far platform to earn FAR rewards.",
+          "totalAmountStaked": "LP tokens currently staked with Few and Far. These tokens are accumulating rewards. To access these tokens, you must first unstake and then withdraw them.",
+          "farmedFar": "Farmed FAR represents the amount of rewards earned from farming. To access these tokens, you must harvest them."
+        },
+        "staking": {
+          "apr": "<p>Trading rewards will be distributed to FAR stakers as a proportion of the number of tokens they stake. This means you lock up value over a period of time to strengthen the platform’s ecosystem. Rewards are commensurate with levels of participation and commitment.</p> <p class=\"mt-4\">Rates shown are estimates and fluctuate according to many different factors. They are subject to change if course-correction is needed to sustain the economy.<p>",
+          "stake": "FAR tokens currently staked with Few and Far. These tokens are accumulating rewards. To access these tokens, you must first unstake and then withdraw them.",
+          "earnedNear": "Earned NEAR represents rewards that have accumlated from staking. To access these tokens, you must collect them.",
+          "earnedFar": "Earned FAR represents rewards that have accumulated from staking. To access these tokens, you must collect them.",
+          "totalAmountStaked": "FAR tokens currently staked with Few and Far. To access these tokens, you must first unstake and then withdraw them."
+        }
+      },
+      "errorBalance": "Cannot get balance. Please try again"
+    },
+    "profile": {
+      "settings": "Profile Settings",
+      "searchResultsTitle": "Profiles",
+      "update": {
+        "action": "Update Profile",
+        "success": {
+          "title": "Congrats!",
+          "message": "Your profile has been updated"
+        },
+        "error": {
+          "title": "Error",
+          "message": "Oops, something went wrong"
+        }
+      },
+      "overview": {
+        "editProfile": "Edit Profile",
+        "totalTraded": "Total Traded",
+        "totalStaked": "Total Staked",
+        "totalEarned": "Total Earned"
+      },
+      "sections": {
+        "myItems": "My Items",
+        "listedItems": "Listed Items",
+        "offersMade": "Offers Made",
+        "offersMadeEmpty": "No Active Offers",
+        "offersReceived": "Offers Received",
+        "offersReceivedEmpty": "No Offers Received",
+        "activitiesEmpty": "No Activities",
+        "loading": "It may take a few minutes for your NFT and blockchain data to load..."
+      }
+    },
+    "navBar": {
+      "connectWallet": "Connect to a wallet",
+      "openMainMenu": "Open main menu",
+      "dropDownMenu": {
+        "myProfile": "My Profile",
+        "copyAddress": "Copy Address",
+        "changeWallet": "Change Wallet",
+        "disconnect": "Disconnect",
+        "goToNearWallet": "Go to NEAR Wallet"
+      }
+    },
+    "timeDuration": {
+      "hours": "{{number}} hrs",
+      "days": "{{number}} days"
+    },
+    "timeDistance": {
+      "ago": "{{date}} ago"
+    },
+    "error": {
+      "notEnoughBalance": "Not enough balance in wallet"
+    },
+    "search": {
+      "title": "Search",
+      "filter": "Filter",
+      "homePlaceHolder": "Search collections and items",
+      "modalPlaceHolder": "Search collections and items",
+      "noResults": "No results found!"
+    },
+    "currencies": {
+      "usd": " <span class=\"absolute -mt-2.5 ml-12 text-xs text-grey-200 dark:text-grey-light2 md:text-base {{greyclass}}\">  ${{amount}} </span>"
+    },
+    "socials": {
+      "facebook": "Facebook",
+      "twitter": "Twitrer",
+      "discord": "Discord",
+      "instagram": "Instagram",
+      "telegram": "Telegram"
+    },
+    "welcomeTerraLuna": {
+      "title": "Creators",
+      "navBarButton": "Apply for Listing",
+      "navBarButtonShort": "Apply",
+      "heroTitle": "A one-stop destination for next-generation digital creators.",
+      "btnListing": "Apply for Listing",
+      "creatorTitle": "Extending a Helping Hand to Terra Creators",
+      "creatorDescription": "Few and Far is a team committed to helping NFT projects migrate from the Terra ecosystem and will provide added funding, marketing, and launchpad support looking to migrate away from the ailing DeFi protocol. <br/> br/> Have an existing NFT collection Terra? Get in touch with our team and let’s get to work.",
+      "btnTerraBridge": "Apply for Terra Bridge",
+      "projectTitle": "NEAR Projects We Love",
+      "storyTitle": "Few and Far’s Story",
+      "storyDescription": "Few and Far is a community-driven platform. We work hard to be responsive, help those around us, and in service to the best collections on NEAR Protocol and beyond.",
+      "touch": "Get in Touch",
+      "getTouchTitle": "Core Secondary Marketplace",
+      "getTouchDescription": "We offer creators the greatest liquidity, ability to earn, and listings from the top collections on NEAR Protocol.",
+      "getTouchTitle2": "Terra NFT Bridge",
+      "getTouchDescription2": "Few and Far is now accepting projects looking for a fresh start from Terra! Let our exclusive NFT bridge combined with leading marketplace technology help you.",
+      "getTouchList2": [
+        "Exclusive NFT bridge technology from Terra to NEAR Protocol.",
+        "The greatest potential for a fresh start on a new chain",
+        "A hassle-free bridge with dedicated development support"
+      ],
+      "getTouchTitle3": "Become a VIP Member",
+      "getTouchDescription3": "We offer early members of the Few and Far community exclusive access to whitelists, token airdrops, and more. ",
+      "partenersTitle": "Supported by Top Venture Funds Who Love Web3 ",
+      "partenersDescription": "Few and Far is backed by the world’s leading web3 venture funds, on-chain partnerships, and the NEAR Foundation.",
+      "getTouchTitle4": "Learn More",
+      "getTouchDescription4": "Have questions? Want to find out more about Few and Far? ",
+      "btnWhitepaper": "Read Our Whitepaper",
+      "getTouchTitle5": "More Information",
+      "getTouchDescription5": "Want to learn more about Few and Far? ",
+      "btnWebsite": "Visit Our Website",
+      "getTouchTitle6": "Community",
+      "getTouchDescription6": "We’re always looking for FAR Out folks. Join our community!",
+      "btnDiscord": "Join Our Discord"
+    },
+    "errorPage": {
+      "btnBack": "Go back home"
+    },
+    "launchpad": {
+      "link": "Launchpad",
+      "title": "Few and Far Launchpad",
+      "text": "The go-to destination to launch your NFT collections is coming soon.",
+      "button": "Apply for Launchpad",
+      "creator": "Creator<br/>rewards",
+      "grant": "Grant<br/>funding",
+      "outbound": "Outbound<br/>community<br/>marketing",
+      "banner": {
+        "title": "Few and Far Roadmap:  Learn about new updates coming soon.",
+        "desc": "Our beta release is just the start. Learn about our launchpad and minting solution coming soon.",
+        "cta": "Apply for Launchpad"
+      }
+    },
+    "minting": {
+      "link": "Mint",
+      "title": "Few and Far Minting",
+      "text": "Our minting solutions will superpower your budding NFT project with just a few clicks - coming soon!",
+      "button": "Apply for Minting",
+      "buttonLearn": "Learn More"
+    },
+    "searchEngine": {
+      "metaDescription": "Few and Far is the next-generation web3 marketplace for NFTs on NEAR. Explore, create, buy, sell, and auction NFTs using Few and Far today.",
+      "metaTitle": "Few and Far"
+    }
+  }
+}

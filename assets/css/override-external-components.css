@@ -1,0 +1,23 @@
+.v-popper--theme-tooltip .v-popper__inner {
+  @apply rounded-lg bg-black !important;
+}
+
+.v-popper--theme-tooltip .v-popper__arrow-outer {
+  @apply border-black !important;
+}
+
+.Vue-Toastification__toast--default.custom-toast {
+  @apply rounded-xl bg-white p-0 duration-200 ease-linear dark:bg-dark;
+}
+.custom-toast.success .Vue-Toastification__progress-bar {
+  @apply bg-green;
+}
+.custom-toast.error .Vue-Toastification__progress-bar {
+  @apply bg-red;
+}
+.custom-toast.warning .Vue-Toastification__progress-bar {
+  @apply bg-[orange];
+}
+.custom-toast.info .Vue-Toastification__progress-bar {
+  @apply bg-blue;
+}
